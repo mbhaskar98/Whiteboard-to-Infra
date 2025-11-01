@@ -6,7 +6,7 @@ Submission for the [Google Chrome Built-in AI Challenge 2025
 ](http://goo.gle/ChromeAIChallenge2025)
 Target Categories: Best Multimodal AI Application, Most Helpful Web Application, Best Hybrid AI Application
 
-[ ➡️ LIVE DEMO ](https://www.google.com/search?q=https://YOUR-PROJECT-URL.web.app)
+[ ➡️ LIVE DEMO ](https://github.com/mbhaskar98/Whiteboard-to-Infra/blob/main/recordings/demo.gif)
 
 📸 The Pitch
 
@@ -95,8 +95,9 @@ Relaunch the browser completely.
 Run the App:
 
 # 1. Clone the repository
-git clone [https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git](https://github.com/YOUR-USERNAME/YOUR-REPO-NAME.git)
-cd YOUR-REPO-NAME
+git clone [Whiteboard-to-Infra](https://github.com/mbhaskar98/Whiteboard-to-Infra)
+
+cd Whiteboard-to-Infra
 
 # 2. Install dependencies
 npm install
