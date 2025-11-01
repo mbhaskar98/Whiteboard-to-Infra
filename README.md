@@ -8,15 +8,17 @@ Target Categories: Best Multimodal AI Application, Most Helpful Web Application,
 
 ![ DEMO VIDEO ](https://github.com/mbhaskar98/Whiteboard-to-Infra/blob/main/recordings/demo.gif)
 
-[ DEMO APP ](https://mbhaskar98.github.io/Whiteboard-to-Infra/)
+[ DEMO APP ](https://mbhaskar98.github.io/Whiteboard-to-Infra/) 
 
-📸 The Pitch
+[Refer How to Run Section](#-how-to-run-for-judges)
+
+### 📸 The Pitch
 
 The Problem: A Critical Security Gap
 
 For professionals in networking, security, and cloud infrastructure (like me!), the best ideas start on a whiteboard. We sketch out secure network architectures, data flows, and firewall rules.
 
-These critical diagrams are "air-gapped" from our documentation pipeline. We can't simply upload a photo of our company's internal network to a public cloud AI for conversion—it's a massive privacy and security violation. We are forced to redraw them manually, wasting hours and inviting human error.
+These critical diagrams are "air-gapped" from the documentation pipeline. We can't simply upload a photo of the company's internal network to a public cloud AI for conversion—it's a massive privacy and security violation. We are forced to redraw them manually, wasting hours and inviting human error.
 
 The Solution: Privacy-First AI
 
@@ -34,7 +36,7 @@ Analyze On-Device: The LanguageModel's multimodal capabilities (image + text) an
 
 Get Code: The app instantly generates a clean, interactive Mermaid.js diagram and the code to go with it.
 
-✨ Key Features
+### ✨ Key Features
 
 100% On-Device Analysis: The core feature. Your images are processed by the local LanguageModel API (Gemini Nano).
 
@@ -46,9 +48,9 @@ Advanced Prompt Engineering: The LanguageModel is initialized with a powerful sy
 
 Deterministic Output: The temperature is set to 0 and topK to 1 to ensure the model is as factual and non-creative as possible, sticking to the facts in the diagram.
 
-Resilient Client-Side Parsing: We discovered the on-device model can still make formatting mistakes (like adding spaces). Our React app includes a robust parseConnectionsToMermaid function that cleans the AI's output before it's rendered, ensuring a valid diagram every time.
+Resilient Client-Side Parsing: We discovered the on-device model can still make formatting mistakes (like adding spaces). The React app includes a robust parseConnectionsToMermaid function that cleans the AI's output before it's rendered, ensuring a valid diagram every time.
 
-🧠 Our Hybrid AI Strategy
+### 🧠 The Hybrid AI Strategy
 
 This project perfectly demonstrates the "offline-first for generation, hybrid for analysis" model.
 
@@ -60,13 +62,13 @@ Benefit: Fast, free, and completely private. It respects the user's data securit
 
 Limitation: As we proved, the on-device model struggles with 100% visual accuracy on complex diagrams.
 
-Part 2: Cloud-Enabled (Analysis) - The Hybrid Vision
+### Part 2: Cloud-Enabled (Analysis) - The Hybrid Vision
 
 Task: "Audit this diagram for security flaws."
 
 Benefit: A future "Audit" button would send the non-sensitive, generated Mermaid code to a secure Firebase Function. The full-power Gemini Cloud API can then perform a deep security analysis (e.g., "Find nodes with public internet access that connect directly to a database"), a complex reasoning task the on-device model can't handle.
 
-🛠️ Tech Stack
+### 🛠️ Tech Stack
 
 Frontend: React, TypeScript, Vite
 
@@ -76,7 +78,7 @@ Diagrams: Mermaid.js
 
 Hosting: Firebase Hosting
 
-🚀 How to Run (For Judges)
+### 🚀 How to Run (For Judges)
 
 This project requires an experimental browser and setup to function.
 
