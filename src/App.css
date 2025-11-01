@@ -18,6 +18,38 @@
   filter: drop-shadow(0 0 2em #61dafbaa);
 }
 
+/* Add this to your existing src/App.css */
+
+.download-progress {
+  width: 100%;
+  max-width: 400px;
+  margin-top: 10px;
+  height: 10px;
+}
+
+/* Optional: Style the progress bar */
+.download-progress::-webkit-progress-bar {
+  background-color: #eee;
+  border-radius: 5px;
+}
+.download-progress::-webkit-progress-value {
+  background-color: var(--color-primary);
+  border-radius: 5px;
+  transition: width 0.3s ease;
+}
+
+.error-box.ai-model-error {
+  background-color: #fff6f6;
+  border: 1px solid #d9534f;
+  color: #c0392b;
+  padding: 16px;
+  border-radius: 8px;
+  font-weight: 500;
+  margin-top: 16px;
+  text-align: left;
+  white-space: pre-wrap; /* To respect newlines in errors */
+}
+
 @keyframes logo-spin {
   from {
     transform: rotate(0deg);
