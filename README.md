@@ -6,7 +6,9 @@ Submission for the [Google Chrome Built-in AI Challenge 2025
 ](http://goo.gle/ChromeAIChallenge2025)
 Target Categories: Best Multimodal AI Application, Most Helpful Web Application, Best Hybrid AI Application
 
-[ ➡️ LIVE DEMO ](https://github.com/mbhaskar98/Whiteboard-to-Infra/blob/main/recordings/demo.gif)
+![ DEMO VIDEO ](https://github.com/mbhaskar98/Whiteboard-to-Infra/blob/main/recordings/demo.gif)
+
+[ DEMO APP ](https://mbhaskar98.github.io/Whiteboard-to-Infra/)
 
 📸 The Pitch
 
